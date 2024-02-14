@@ -1,0 +1,15 @@
+Bem-vindo à Fábrica de PDFs!
+
+Para utilizar a aplicação, siga as instruções:
+
+- 1 -
+Clique no botão de seleção de pastas, e escolha a pasta onde os arquivos que você quer estão.
+
+- 2 -
+Feito isto, a aplicação lhe mostrará os arquivos encontrados. Você pode escolher quais arquivos você quer que sejam encontrados, no botão de configurações. Caso a pasta que você escolheu tenha subpastas com arquivos válidos, a aplicação também os selecionará.
+
+- 3 -
+Para começar, clique no botão "Fabricar PDFs" e confirme. A aplicação abrirá um popup para mostrar o progresso. Você pode clicar no botão de detalhes para acompanhar exatamente o que está sendo feito, em tempo real.
+
+- 4 -
+Agora, basta aguardar que todos os arquivos serão convertidos! Ao final, você pode verificar o log, e conferir se alguma conversão falhou.
