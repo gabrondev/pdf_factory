@@ -1,3 +1,12 @@
+'''
+File name: pdf_factory.py
+Author: Gabriel Almeida Oliveira
+LinkedIn: https://www.linkedin.com/in/gabrondev/
+Creation date: 13/02/2024
+Update date: 17/02/2024
+Description: Simple app for converting specific file formats to PDF format
+'''
+
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import ttk
@@ -139,21 +148,16 @@ def convert_docs(files_list):
     global current_file, total_files, excel_application, word_application, file_details_text, open_folder_enabled
 
     time.sleep(2) # Wait time so the progress UI can be fully created before starting
-    excel_application = None
-    word_application = None
 
     has_word_files = any(file_path.endswith('.docx') for file_path in files_list)
     has_excel_files = any(file_path.endswith('.xlsx') or file_path.endswith('.xlsm') or file_path.endswith('.xls') for file_path in files_list)
     
     if has_excel_files:
         excel_application = win32.Dispatch("Excel.Application")
-        excel_application.Interactive = False
-        excel_application.Visible = False
 
     if has_word_files:
         word_application = win32.Dispatch("Word.Application")
 
-    #total_files = len(files_list)
     current_file = 1
     for file in files_list:
         if pause_event.is_set():
@@ -177,12 +181,6 @@ def convert_docs(files_list):
     if open_folder_enabled:
         main_directory = str(directory_entry.get())
         os.startfile(main_directory)
-
-    if excel_application is not None:
-        excel_application.Quit()
-
-    if word_application is not None:
-        word_application.Quit()
 
 def convert_xlsx_to_pdf(input_file, output_file):
     global file_details_text
@@ -393,6 +391,10 @@ def main_function():
         else:
             message_box_ok_only("Nenhum arquivo encontrado", "Nenhum arquivo encontrado para converter.")
             treeview.delete(*treeview.get_children())
+            treeview.heading("#0", text='')
+            directory_entry.configure(state='normal')
+            directory_entry.delete(0, tk.END)
+            directory_entry.configure(state='readonly')
     
     ask_to_start_conversion()
 
@@ -501,7 +503,7 @@ def open_help_popup():
     credits_tab = tabview.add('Créditos')
     app_name_label = ctk.CTkLabel(credits_tab, text='Fábrica de PDFs', font=title)
     app_name_label.pack()
-    app_version_label = ctk.CTkLabel(credits_tab, text='Versão: Beta 1', font=subtitle)
+    app_version_label = ctk.CTkLabel(credits_tab, text='Versão: v1.0', font=subtitle)
     app_version_label.pack()
 
     with open('resources/credits.txt', 'r', encoding='utf-8') as file:
@@ -511,6 +513,11 @@ def open_help_popup():
     credits_textbox.insert('end', credits_text, "center")
     credits_textbox.configure(state='disabled')
     credits_textbox.pack(padx=10, pady=10, fill='both', expand=True)
+
+    # Going to the end of textbox, then back to the start, 
+    # so the scrollbar works properly when dragged
+    help_textbox.see('end')
+    help_textbox.see('1.0')
 
     center_popup(help_popup, 400, 350)
     help_popup.lift()
