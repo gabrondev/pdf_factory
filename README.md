@@ -61,7 +61,7 @@ Esta é uma aplicação executável com interface gráfica. Basta fazer o downlo
 
 >Ao final, seus arquivos estarão convertidos para PDF na mesma pasta!
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl-cAh2aWxNxjiGXu24SmsS-xb73B24VAMS7ZGgaigBsGnZ0TA6Jny7_9Md2Uq_JAlNqqvw9iwO94FkpgoeNYb7nZXTyDobO-gnUqTH61fM6qVgO3sub5iW4SD4zylqITTFp8R9VgIyaUDpmKcTdFSbRgRzNQkhadBCBbhlhFdPq1japo/s1600/pdf_factory_show.GIF)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgAX0_a78dzgkfwFIglxnSaRURR_KyyVMZ6gGbTS2aQbvkWOq0eJAZqDMjvHAvFgTHare9RBNq6_wfwmBkiGz691sGGxzGil4Gk9mE_U1SD-2b4nARhZ2b7seKySA7tVd06U6Inszpw8W8M2u99_ALPlTJawHRGkn7_BIRP-CCISpzMXKS7EilMgHo09_b/s1600/pdf_factory_github.gif)
 
 ## Documentação
 
