@@ -25,14 +25,6 @@
 
 Utilitário desenvolvido em Python para converter todos os arquivos do MS Office de uma pasta, e suas respectivas subpastas, para o formato PDF.
 
-### Ajustes e melhorias (v2.0)
-
-- [ ] [Modularizar o código-fonte](https://github.com/gabrondev/pdf_factory/issues/1)
-- [ ] [Seleção de arquivos a serem convertidos](https://github.com/gabrondev/pdf_factory/issues/2)
-- [ ] [Ignorar arquivos que já tem versão PDF](https://github.com/gabrondev/pdf_factory/issues/3)
-- [ ] [Exportar arquivos para uma pasta diferente](https://github.com/gabrondev/pdf_factory/issues/4)
-- [ ] [Tela de splash](https://github.com/gabrondev/pdf_factory/issues/5)
-
 ### Tecnologias utilizadas
 
 ![Python](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8-BhtScsuXCMEhHwARuLRBJYBh_oG4EvYZNz6LELlCCxqbZ9iBgaE-1mMi9HdXJsLFWOWf2swU21Y6O7jEcZJpFTZzxlosTOGFVvjVEXyOuJo0PoffKwPel41Q3vv-Euxn-x3ajXAdwcwQyvzCdA5J52tz4qPy_Qjvp1k1dGNVvu3goR4sxnw4TBolt9m/s1600/python2.png)
