@@ -1,34 +1,22 @@
 <p align="center">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX35HEYG7JYx099UzSWl4Uc6QOhQd0agwhi9bQwTy8wL2S-F1az4Hf-tzn_9vDnUnVtzIjtENk5QrH9_g6dnItL_11AiOgMcI5JjYdSKyWrbUcAJFm7MuVvKFCGH5XqKY6Dme33S9cEyesm-HVej7r_aRRlDKgY2y2Ncb7cBXqIGzqGl2B3NLSE8i9Y-u2/s1600/pdf_factory_logo_git.png" />
+  <img src="https://github.com/gabrondev/pdf_factory/raw/main/.gitassets/pdf_factory_logo_git.png?raw=true" />
 </p>
 
 <div align="center">
+  <div data-badges>
+      <img src="https://img.shields.io/github/stars/gabrondev/pdf_factory?style=for-the-badge" alt="GitHub stars" />
+      <img src="https://img.shields.io/github/release/gabrondev/pdf_factory?style=for-the-badge" alt="GitHub release" />
+      <img src="https://img.shields.io/github/license/gabrondev/pdf_factory?style=for-the-badge" alt="GitHub license" />
+  </div>
 
-[![GitHub release](https://img.shields.io/github/release/gabrondev/pdf_factory?include_prereleases=&sort=semver&color=red)](https://github.com/gabrondev/pdf_factory/releases/)
-[![License](https://img.shields.io/badge/License-GPL_3.0-red)](#license)
-[![issues - pdf_factory](https://img.shields.io/github/issues/gabrondev/pdf_factory)](https://github.com/gabrondev/pdf_factory/issues)
+  <div data-badges>
+    <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Next.js" />
+  </div>
 </div>
 
 #
 
-<p align="center">
-    <b>Página Oficial: </b> <a target="_blank" href="https://www.gabrondev.com/p/fabrica-de-pdfs.html">https://www.gabrondev.com/p/fabrica-de-pdfs.html</a>
-</p>
-
-<div align="center">
-
-[Como utilizar](#como-utilizar) |
-[Documentação](#documentação) | 
-[Licença](#licença) | 
-[Contato](#contato)
-</div>
-
 Utilitário desenvolvido em Python para converter todos os arquivos do MS Office de uma pasta, e suas respectivas subpastas, para o formato PDF.
-
-### Tecnologias utilizadas
-
-![Python](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8-BhtScsuXCMEhHwARuLRBJYBh_oG4EvYZNz6LELlCCxqbZ9iBgaE-1mMi9HdXJsLFWOWf2swU21Y6O7jEcZJpFTZzxlosTOGFVvjVEXyOuJo0PoffKwPel41Q3vv-Euxn-x3ajXAdwcwQyvzCdA5J52tz4qPy_Qjvp1k1dGNVvu3goR4sxnw4TBolt9m/s1600/python2.png)
-![CustomTKinter](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjglXJbm5FPr7UzlMd60g70ajz3UAk7vxu3ZObl9FqzBGDJ1hRNBqafDhc0_eD9AxnAnZw0Pj6AxtD2lt3LAFQNcQt3yqdsAndUipw8jPM958U1Wi22KybSYQR_GtRTQJ1gkifcj8IItDvl1rBd6DvJARYWUsCuRTweiSXqnY2Q7ukCYAdYSJ1ZGQcqul1A/s1600/customtkinter2.png)
 
 ## Como utilizar
 
@@ -53,13 +41,7 @@ Esta é uma aplicação executável com interface gráfica. Basta fazer o downlo
 
 >Ao final, seus arquivos estarão convertidos para PDF na mesma pasta!
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgAX0_a78dzgkfwFIglxnSaRURR_KyyVMZ6gGbTS2aQbvkWOq0eJAZqDMjvHAvFgTHare9RBNq6_wfwmBkiGz691sGGxzGil4Gk9mE_U1SD-2b4nARhZ2b7seKySA7tVd06U6Inszpw8W8M2u99_ALPlTJawHRGkn7_BIRP-CCISpzMXKS7EilMgHo09_b/s1600/pdf_factory_github.gif)
-
-## Documentação
-
-➡️ Você pode ler a documentação do projeto aqui:
-
- [https://github.com/gabrondev/pdf_factory/wiki](https://github.com/gabrondev/pdf_factory/wiki)
+![](https://github.com/gabrondev/pdf_factory/raw/main/.gitassets/pdf_factory_showcase.gif?raw=true)
 
 ## Licença
 
@@ -69,5 +51,5 @@ Este projeto está licenciado sob a Licença Pública Geral GNU (GPL) v3.0 — v
 
 Entre em contato comigo:
 
-- [LinkedIn]()
-- [Blog Pessoal]()
+- [LinkedIn](https://www.linkedin.com/in/gabrondev/)
+- [Blog Pessoal](https://www.gabrondev.com/)
